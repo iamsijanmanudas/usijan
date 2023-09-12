@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Page</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>This is your image page.</p>
+
+    <img width="400px" th:src="'/images/' + ${name} + '.jpg'" 
+    alt="${name}"/>
+</body>
+</html>
